@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+AU+SA:wght@100..400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    font-family:  "Playwrite AU SA", serif;
+    box-sizing: border-box;
+    
+    font-size: 2rem;
+    color: rgb(4, 36, 94);
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+}
+
+body{
+    background-image: url("https://thumbs.dreamstime.com/b/todo-list-seamless-pattern-universal-background-66678083.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main{
+    padding: 5%;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+    gap: 40px;
+    align-items: center;
+    box-sizing:border-box;
+    background-color: rgb(221, 194, 248);
+    border: 2px solid black;
+    border-radius: 5ch;
+}
+.Add{
+    background-color: black;
+    padding: 1rem;
+    border-radius: 10ch;
+}
+.Add input{
+    width: 50vw;
+    height: 7vh;
+    border-radius: 10ch;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.Add button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 10vw;
+    height: 7vh;
+    font-size: 1rem;
+    background-color: rgb(232, 209, 243);
+    border-radius: 10ch;
+}
+.Add button:hover{
+    background-color: rgb(75, 75, 119);
+    color: bisque;
+}
+
+.display{
+    font-size: 2rem;
+
+}
+
+.listitem{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.listitem button{
+    width: 10vw;
+    height: 5vh;
+    background-color: rgb(223, 140, 156);
+    border-radius: 10ch;
+}
+.listitem button:hover{
+    background-color: rgb(92, 11, 81);
+    color: beige;
+}
+
